@@ -1,13 +1,17 @@
-animal = ""
+const animal = 'unicorn';
 
 function myAnimal() {
   return animal
 }
 
 function yourAnimal() {
+  let animal = 'dog'
+
   return animal
 }
 
 function add2(n) {
-  return n + 2
+  const two = 2
+
+  return n + two
 }
